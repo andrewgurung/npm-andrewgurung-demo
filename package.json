@@ -1,9 +1,3 @@
-## Creating and publishing npm module
-
-1. Create index.js file
-2. Create package.json file using `npm init`
-Sample package.json file:
-```js
 {
   "name": "npm-andrewgurung-demo",
   "version": "1.0.0",
@@ -14,7 +8,7 @@ Sample package.json file:
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewgurung/npm-andrewgurung-demo.git"
+    "url": "git+https://github.com/andrewgurung/npm-andrewgurung-demo.git"
   },
   "keywords": [
     "demo",
@@ -29,4 +23,3 @@ Sample package.json file:
   },
   "homepage": "https://github.com/andrewgurung/npm-andrewgurung-demo#readme"
 }
-```
